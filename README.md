@@ -11,12 +11,27 @@ Implementing CNN network architectures with Keras library
 
 ### CNN architectures implemented in this repository:
 1. **ShallowNet** network structure:
-    * INPUT => CONV => RELU => FC
+> INPUT => CONV => RELU => FC
 2. **LeNet** network structure:
-    * INPUT => CONV => TANH => POOL => CONV => 
-    TANH => POOL => FC => TANH => FC 
+>  INPUT => CONV => TANH => POOL => CONV => 
+>  TANH => POOL => FC => TANH => FC 
+    
+Layer Type | Output Size | Filter Size / Stride
+---------- | ------------| -----------
+INPUT IMAGE | 28x28x1 |
+CONV | 28x28x20 | 5x5, K=20
+ACT  | 28x28x20 |
+POOL | 14x14x20 | 2x2
+CONV | 14x14x50 | 5x5, K=50
+ACT  | 14x14x50 |
+POOL | 7x7x50 | 2x2
+FC   | 500 |
+ACT  | 500 |
+FC   | 10 |
+SOFTMAX | 10 |
 
 ### MNIST Dataset:
+> "Hello World" equivalent of deep learning applied to image classification
 > The **MNIST** (“NIST” stands for National Institute of Standards and Technology while “M” stands for “modified” as the data has been preprocessed to reduce any burden on Computer Vision processing and focus solely on the task of **digit recognition**).
 
 > Dataset consisting of 70,000 data points (7,000 examples per digit). Each data point is represented by a 784-d vector (flattened 28x28 images).
@@ -28,7 +43,7 @@ Implementing CNN network architectures with Keras library
 
 * CIFAR-10 Classification: [60% Accuracy on average](output/shallownet_cifar10_trainingEval.txt
 )
-![kerasCIFAR10](/output/shallownet_cifar10.png)
+![kerasCIFAR10](/output/shallownet_cifar10.PNG)
 
 ### References:
 * Deep Learning for Computer Vision with Python VOL1 by Dr.Adrian Rosebrock
