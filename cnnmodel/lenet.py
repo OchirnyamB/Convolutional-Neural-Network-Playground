@@ -1,6 +1,7 @@
 from keras.models import Sequential
 from keras.layers.convolutional import Conv2D
 from keras.layers.convolutional import MaxPooling2D
+from keras.layers.normalization import BatchNormalization
 from keras.layers.core import Activation
 from keras.layers.core import Flatten
 from keras.layers.core import Dense
@@ -21,11 +22,13 @@ class LeNet:
         # First set of CONV => RELU => POOL Layers
         model.add(Conv2D(20, (5,5), padding="same", input_shape=inputShape))
         model.add(Activation("relu"))
+        model.add(BatchNormalization())
         model.add(MaxPooling2D(pool_size=(2,2)))
 
         # Second set of CONV => RELU => POOL Layers
         model.add(Conv2D(20, (5,5), padding="same", input_shape=inputShape))
         model.add(Activation("relu"))
+        model.add(BatchNormalization())
         model.add(MaxPooling2D(pool_size=(2,2)))
 
         # First and only set of FC => RELU Layers
