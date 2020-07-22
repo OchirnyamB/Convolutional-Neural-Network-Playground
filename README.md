@@ -74,7 +74,7 @@ SOFTMSX | 1O |
 
 * CIFAR-10 **ShallowNet** Classification: [60% Accuracy on average](output/shallownet_cifar10_trainingEval.txt)
 ![kerasCIFAR10](/output/shallownet_cifar10.PNG)
-* CIFAR-10 **VGGNet** Classification: [80% Accuracy on average](output/minivggnet_cifar10_trainingEval.txt)
+* CIFAR-10 **VGGNet** Classification: [81% Accuracy on average](output/minivggnet_cifar10_trainingEval.txt)
 ![kerasCIFAR10](/output/minivggnet_cifar10.PNG)
 
 ### References:

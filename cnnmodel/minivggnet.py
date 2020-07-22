@@ -15,30 +15,28 @@ class MiniVGGNet:
         # Depth is the number of channels in the input image
         model = Sequential()
         inputShape = (height, width, depth)
-        # Implies that the index of the channel dimension is last in the input shape
-        chanDim = -1
+
         # If we are using channels first, update the input shape
         if K.image_data_format() == "channels_first":
             inputShape = (depth, height, width)
-            chanDim = 1
         
         # First set of CONV => RELU => CONV => RELU => POOL Layers
         model.add(Conv2D(32, (3,3), padding="same", input_shape=inputShape))
         model.add(Activation("relu"))
-        # model.add(BatchNormalization(axis=chanDim))
+        model.add(BatchNormalization())
         model.add(Conv2D(32, (3,3), padding="same"))
         model.add(Activation("relu"))
-        # model.add(BatchNormalization(axis=chanDim))
+        model.add(BatchNormalization())
         model.add(MaxPooling2D(pool_size=(2,2)))
         model.add(Dropout(0.25))
 
         # Second set of CONV => RELU => CONV => RELU => POOL Layers
         model.add(Conv2D(64, (3,3), padding="same", input_shape=inputShape))
         model.add(Activation("relu"))
-        model.add(BatchNormalization(axis=chanDim))
+        model.add(BatchNormalization())
         model.add(Conv2D(64, (3,3), padding="same"))
         model.add(Activation("relu"))
-        # model.add(BatchNormalization(axis=chanDim))
+        model.add(BatchNormalization())
         model.add(MaxPooling2D(pool_size=(2,2)))
         model.add(Dropout(0.25))
 
@@ -46,7 +44,7 @@ class MiniVGGNet:
         model.add(Flatten())
         model.add(Dense(512))
         model.add(Activation("relu"))
-        # model.add(BatchNormalization)
+        model.add(BatchNormalization())
         model.add(Dropout(0.5))
 
         # Final softmax classifier with class probabilities

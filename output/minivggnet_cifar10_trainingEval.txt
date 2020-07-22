@@ -1,58 +1,58 @@
 [INFO] training network...
 Epoch 1/20
-782/782 [==============================] - 93s 119ms/step - loss: 1.7988 - accuracy: 0.3355 - val_loss: 1.5920 - val_accuracy: 0.4254
+782/782 [==============================] - 129s 165ms/step - loss: 1.6520 - accuracy: 0.4500 - val_loss: 1.3624 - val_accuracy: 0.5358
 Epoch 2/20
-782/782 [==============================] - 94s 120ms/step - loss: 1.3171 - accuracy: 0.5248 - val_loss: 1.1059 - val_accuracy: 0.6014
+782/782 [==============================] - 128s 164ms/step - loss: 1.1443 - accuracy: 0.6029 - val_loss: 0.9483 - val_accuracy: 0.6667
 Epoch 3/20
-782/782 [==============================] - 94s 121ms/step - loss: 1.0940 - accuracy: 0.6099 - val_loss: 0.9642 - val_accuracy: 0.6554
+782/782 [==============================] - 127s 162ms/step - loss: 0.9754 - accuracy: 0.6577 - val_loss: 0.8862 - val_accuracy: 0.6879
 Epoch 4/20
-782/782 [==============================] - 94s 120ms/step - loss: 0.9679 - accuracy: 0.6567 - val_loss: 0.8418 - val_accuracy: 0.7060
+782/782 [==============================] - 127s 162ms/step - loss: 0.8579 - accuracy: 0.6991 - val_loss: 0.7927 - val_accuracy: 0.7272
 Epoch 5/20
-782/782 [==============================] - 93s 119ms/step - loss: 0.8771 - accuracy: 0.6915 - val_loss: 0.8010 - val_accuracy: 0.7181
+782/782 [==============================] - 127s 163ms/step - loss: 0.7839 - accuracy: 0.7268 - val_loss: 0.7036 - val_accuracy: 0.7580
 Epoch 6/20
-782/782 [==============================] - 93s 119ms/step - loss: 0.8129 - accuracy: 0.7124 - val_loss: 0.8163 - val_accuracy: 0.7212
+782/782 [==============================] - 127s 163ms/step - loss: 0.7317 - accuracy: 0.7450 - val_loss: 0.6950 - val_accuracy: 0.7632
 Epoch 7/20
-782/782 [==============================] - 93s 119ms/step - loss: 0.7624 - accuracy: 0.7317 - val_loss: 0.7746 - val_accuracy: 0.7276
+782/782 [==============================] - 127s 163ms/step - loss: 0.6824 - accuracy: 0.7589 - val_loss: 0.6648 - val_accuracy: 0.7723
 Epoch 8/20
-782/782 [==============================] - 93s 119ms/step - loss: 0.7221 - accuracy: 0.7449 - val_loss: 0.6957 - val_accuracy: 0.7562
+782/782 [==============================] - 129s 165ms/step - loss: 0.6428 - accuracy: 0.7741 - val_loss: 0.6294 - val_accuracy: 0.7803
 Epoch 9/20
-782/782 [==============================] - 93s 118ms/step - loss: 0.6809 - accuracy: 0.7607 - val_loss: 0.6799 - val_accuracy: 0.7623
+782/782 [==============================] - 127s 163ms/step - loss: 0.6107 - accuracy: 0.7846 - val_loss: 0.6281 - val_accuracy: 0.7859
 Epoch 10/20
-782/782 [==============================] - 93s 119ms/step - loss: 0.6468 - accuracy: 0.7714 - val_loss: 0.6787 - val_accuracy: 0.7663
+782/782 [==============================] - 129s 165ms/step - loss: 0.5782 - accuracy: 0.7954 - val_loss: 0.6288 - val_accuracy: 0.7842
 Epoch 11/20
-782/782 [==============================] - 93s 119ms/step - loss: 0.6194 - accuracy: 0.7823 - val_loss: 0.6483 - val_accuracy: 0.7749
+782/782 [==============================] - 126s 161ms/step - loss: 0.5547 - accuracy: 0.8022 - val_loss: 0.6138 - val_accuracy: 0.7949
 Epoch 12/20
-782/782 [==============================] - 93s 119ms/step - loss: 0.5921 - accuracy: 0.7905 - val_loss: 0.6414 - val_accuracy: 0.7803
+782/782 [==============================] - 126s 162ms/step - loss: 0.5277 - accuracy: 0.8137 - val_loss: 0.6487 - val_accuracy: 0.7825
 Epoch 13/20
-782/782 [==============================] - 93s 119ms/step - loss: 0.5726 - accuracy: 0.7972 - val_loss: 0.6344 - val_accuracy: 0.7807
+782/782 [==============================] - 127s 162ms/step - loss: 0.5071 - accuracy: 0.8198 - val_loss: 0.5894 - val_accuracy: 0.8019
 Epoch 14/20
-782/782 [==============================] - 93s 119ms/step - loss: 0.5450 - accuracy: 0.8053 - val_loss: 0.6201 - val_accuracy: 0.7847
+782/782 [==============================] - 127s 162ms/step - loss: 0.4857 - accuracy: 0.8288 - val_loss: 0.5966 - val_accuracy: 0.7968
 Epoch 15/20
-782/782 [==============================] - 93s 118ms/step - loss: 0.5317 - accuracy: 0.8112 - val_loss: 0.6216 - val_accuracy: 0.7894
+782/782 [==============================] - 129s 165ms/step - loss: 0.4663 - accuracy: 0.8343 - val_loss: 0.5786 - val_accuracy: 0.8080
 Epoch 16/20
-782/782 [==============================] - 93s 119ms/step - loss: 0.5111 - accuracy: 0.8156 - val_loss: 0.6151 - val_accuracy: 0.7888
+782/782 [==============================] - 127s 163ms/step - loss: 0.4524 - accuracy: 0.8378 - val_loss: 0.6452 - val_accuracy: 0.7871
 Epoch 17/20
-782/782 [==============================] - 93s 119ms/step - loss: 0.4973 - accuracy: 0.8233 - val_loss: 0.6153 - val_accuracy: 0.7905
+782/782 [==============================] - 126s 161ms/step - loss: 0.4401 - accuracy: 0.8438 - val_loss: 0.5649 - val_accuracy: 0.8131
 Epoch 18/20
-782/782 [==============================] - 93s 119ms/step - loss: 0.4776 - accuracy: 0.8288 - val_loss: 0.6010 - val_accuracy: 0.7933
+782/782 [==============================] - 126s 161ms/step - loss: 0.4259 - accuracy: 0.8490 - val_loss: 0.5682 - val_accuracy: 0.8111
 Epoch 19/20
-782/782 [==============================] - 93s 119ms/step - loss: 0.4586 - accuracy: 0.8355 - val_loss: 0.6120 - val_accuracy: 0.7927
+782/782 [==============================] - 127s 162ms/step - loss: 0.4081 - accuracy: 0.8554 - val_loss: 0.5779 - val_accuracy: 0.8105
 Epoch 20/20
-782/782 [==============================] - 94s 120ms/step - loss: 0.4550 - accuracy: 0.8367 - val_loss: 0.6020 - val_accuracy: 0.7986
+782/782 [==============================] - 126s 161ms/step - loss: 0.4012 - accuracy: 0.8574 - val_loss: 0.5645 - val_accuracy: 0.8145
 [INFO] evaluation network...
               precision    recall  f1-score   support
 
-    airplane       0.81      0.81      0.81      1000
-  automobile       0.87      0.93      0.90      1000
-        bird       0.75      0.67      0.71      1000
-         cat       0.62      0.63      0.63      1000
-        deer       0.79      0.76      0.78      1000
-         dog       0.74      0.69      0.71      1000
-        frog       0.84      0.87      0.85      1000
-       horse       0.85      0.85      0.85      1000
-        ship       0.85      0.90      0.88      1000
-       truck       0.85      0.87      0.86      1000
+    airplane       0.86      0.84      0.85      1000
+  automobile       0.91      0.91      0.91      1000
+        bird       0.80      0.65      0.72      1000
+         cat       0.65      0.67      0.66      1000
+        deer       0.75      0.80      0.78      1000
+         dog       0.71      0.74      0.72      1000
+        frog       0.85      0.87      0.86      1000
+       horse       0.83      0.88      0.85      1000
+        ship       0.91      0.89      0.90      1000
+       truck       0.89      0.89      0.89      1000
 
-    accuracy                           0.80     10000
-   macro avg       0.80      0.80      0.80     10000
-weighted avg       0.80      0.80      0.80     10000
+    accuracy                           0.81     10000
+   macro avg       0.82      0.81      0.81     10000
+weighted avg       0.82      0.81      0.81     10000
