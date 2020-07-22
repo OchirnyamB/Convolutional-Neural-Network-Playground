@@ -68,7 +68,7 @@ SOFTMSX | 1O |
 > Dataset consisting of 60,000 (32x32x3 RGB images) resulting in a feature vector dimensionality of 3072. It consists of 10 classes: _airplanes, automobiles, birds, cats, deer, dogs, frogs, horses, ships, and trucks_.
 
 ### Evaluations of the Trained Networks:
-* MNIST **LeNet** Classification: [98% Accuracy on average](output/lenet_mnist_trainingEval.txt
+* MNIST **LeNet Classification: [99% Accuracy on average](output/lenet_mnist_trainingEval.txt
 )
 ![kerasCIFAR10](/output/lenet_mnist.PNG)
 
