@@ -83,7 +83,7 @@ SOFTMSX | 1O |
 ![kerasCIFAR10](/output/minivggnet_cifar10.PNG)
 
 * Image Classification using pretrained ResNet50 from Keras:
-[pretrainedResNet50](./classifyimage_ResNet.ipynb)
+[pretrainedResNet50](./classifyImage_ResNet.ipynb)
 ### References:
 * Deep Learning for Computer Vision with Python VOL1 by Dr.Adrian Rosebrock
 
