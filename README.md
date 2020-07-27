@@ -58,6 +58,11 @@ DROPOUT | 512 |
 FC      | 10 |
 SOFTMSX | 1O |
 
+4. **ResNet50** network model:
+> Aimed at labeling and categorizing images into almost 22,000 categories
+> Follows the WordNet hierarchy. Each meaningful word/phrase inside WordNet is called a synonym set.
+> 50 weight layers, deeper than both VGG16 and VGG19
+
 ### MNIST Dataset:
 > "Hello World" equivalent of deep learning applied to image classification
 > The **MNIST** (“NIST” stands for National Institute of Standards and Technology while “M” stands for “modified” as the data has been preprocessed to reduce any burden on Computer Vision processing and focus solely on the task of **digit recognition**).
@@ -77,6 +82,8 @@ SOFTMSX | 1O |
 * CIFAR-10 **VGGNet** Classification: [81% Accuracy on average](output/minivggnet_cifar10_trainingEval.txt)
 ![kerasCIFAR10](/output/minivggnet_cifar10.PNG)
 
+* Image Classification using pretrained ResNet50 from Keras
+[pretrainedResNet50](classifyimage_ResNet.ipynb)
 ### References:
 * Deep Learning for Computer Vision with Python VOL1 by Dr.Adrian Rosebrock
 
