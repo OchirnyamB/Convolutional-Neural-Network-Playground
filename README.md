@@ -8,6 +8,8 @@ Implementing CNN network architectures with Keras library
 * scikit-image V0.17.2
 * opencv-python
 * matplotlib V3.2.2
+* imutils 
+* jupyter
 
 ### CNN architectures implemented in this repository:
 1. **ShallowNet** network structure:
@@ -72,6 +74,9 @@ SOFTMSX | 1O |
 ### CIFAR-10 Dataset:
 > Dataset consisting of 60,000 (32x32x3 RGB images) resulting in a feature vector dimensionality of 3072. It consists of 10 classes: _airplanes, automobiles, birds, cats, deer, dogs, frogs, horses, ships, and trucks_.
 
+### Flowers-17 Dataset:
+> Dataset consisting of 1360 images, 17 distinct images species of flowers. 
+
 ### Evaluations of the Trained Networks:
 * MNIST **LeNet** Classification: [99% Accuracy on average](output/lenet_mnist_trainingEval.txt
 )
@@ -81,11 +86,13 @@ SOFTMSX | 1O |
 ![kerasCIFAR10](/output/shallownet_cifar10.PNG)
 * CIFAR-10 **VGGNet** Classification: [81% Accuracy on average](output/minivggnet_cifar10_trainingEval.txt)
 ![kerasCIFAR10](/output/minivggnet_cifar10.PNG)
+* Flowers-17 with Data augmentation: [71% Accuracy on average](output/minivggnet_flowers17_data_aug.txt)
+![minivggf17](/output/minivggnet_flowers17_data_aug.PNG)
 
 * Image Classification using pretrained ResNet50 from Keras:
 [pretrainedResNet50](./classifyImage_ResNet.ipynb)
 ### References:
-* Deep Learning for Computer Vision with Python VOL1 by Dr.Adrian Rosebrock
+* Deep Learning for Computer Vision with Python VOL1 & VOL2 by Dr.Adrian Rosebrock
 
 
 
