@@ -1,0 +1,107 @@
+Epoch 1/40
+31/31 [==============================] - 13s 410ms/step - loss: 3.3433 - accuracy: 0.2105 - val_loss: 4.7660 - val_accuracy: 0.0824
+Epoch 2/40
+31/31 [==============================] - 13s 413ms/step - loss: 2.4063 - accuracy: 0.3482 - val_loss: 2.4923 - val_accuracy: 0.2059
+Epoch 3/40
+31/31 [==============================] - 13s 406ms/step - loss: 2.1239 - accuracy: 0.4008 - val_loss: 2.2046 - val_accuracy: 0.3059
+Epoch 4/40
+31/31 [==============================] - 13s 410ms/step - loss: 1.8761 - accuracy: 0.4474 - val_loss: 2.0232 - val_accuracy: 0.3471
+Epoch 5/40
+31/31 [==============================] - 13s 407ms/step - loss: 1.7190 - accuracy: 0.4868 - val_loss: 2.0916 - val_accuracy: 0.3735
+Epoch 6/40
+31/31 [==============================] - 12s 392ms/step - loss: 1.5765 - accuracy: 0.5192 - val_loss: 2.0909 - val_accuracy: 0.3941
+Epoch 7/40
+31/31 [==============================] - 12s 373ms/step - loss: 1.6121 - accuracy: 0.5192 - val_loss: 2.0678 - val_accuracy: 0.3529
+Epoch 8/40
+31/31 [==============================] - 13s 416ms/step - loss: 1.4829 - accuracy: 0.5273 - val_loss: 1.7966 - val_accuracy: 0.4618
+Epoch 9/40
+31/31 [==============================] - 13s 410ms/step - loss: 1.4489 - accuracy: 0.5638 - val_loss: 2.1002 - val_accuracy: 0.3706
+Epoch 10/40
+31/31 [==============================] - 13s 411ms/step - loss: 1.3726 - accuracy: 0.5607 - val_loss: 1.3295 - val_accuracy: 0.5588
+Epoch 11/40
+31/31 [==============================] - 12s 376ms/step - loss: 1.2996 - accuracy: 0.5972 - val_loss: 1.3039 - val_accuracy: 0.6176
+Epoch 12/40
+31/31 [==============================] - 12s 389ms/step - loss: 1.2328 - accuracy: 0.6073 - val_loss: 1.4045 - val_accuracy: 0.5735
+Epoch 13/40
+31/31 [==============================] - 12s 385ms/step - loss: 1.2626 - accuracy: 0.5769 - val_loss: 1.6793 - val_accuracy: 0.5118
+Epoch 14/40
+31/31 [==============================] - 12s 372ms/step - loss: 1.2054 - accuracy: 0.5951 - val_loss: 1.2769 - val_accuracy: 0.5882
+Epoch 15/40
+31/31 [==============================] - 12s 375ms/step - loss: 1.1476 - accuracy: 0.6275 - val_loss: 1.2593 - val_accuracy: 0.5794
+Epoch 16/40
+31/31 [==============================] - 12s 398ms/step - loss: 1.1726 - accuracy: 0.6275 - val_loss: 1.4412 - val_accuracy: 0.5618
+Epoch 17/40
+31/31 [==============================] - 12s 400ms/step - loss: 1.0565 - accuracy: 0.6549 - val_loss: 1.2495 - val_accuracy: 0.5794
+Epoch 18/40
+31/31 [==============================] - 12s 390ms/step - loss: 0.9966 - accuracy: 0.6599 - val_loss: 1.2986 - val_accuracy: 0.6029
+Epoch 19/40
+31/31 [==============================] - 11s 344ms/step - loss: 1.0326 - accuracy: 0.6437 - val_loss: 1.2472 - val_accuracy: 0.6176
+Epoch 20/40
+31/31 [==============================] - 12s 375ms/step - loss: 1.0619 - accuracy: 0.6741 - val_loss: 1.8266 - val_accuracy: 0.5324
+Epoch 21/40
+31/31 [==============================] - 12s 380ms/step - loss: 0.9990 - accuracy: 0.6650 - val_loss: 1.1740 - val_accuracy: 0.6706
+Epoch 22/40
+31/31 [==============================] - 12s 383ms/step - loss: 0.9667 - accuracy: 0.6680 - val_loss: 1.5264 - val_accuracy: 0.5559
+Epoch 23/40
+31/31 [==============================] - 14s 456ms/step - loss: 0.8771 - accuracy: 0.7146 - val_loss: 1.2052 - val_accuracy: 0.6235
+Epoch 24/40
+31/31 [==============================] - 14s 457ms/step - loss: 0.9138 - accuracy: 0.6923 - val_loss: 1.4291 - val_accuracy: 0.5794
+Epoch 25/40
+31/31 [==============================] - 14s 458ms/step - loss: 0.8959 - accuracy: 0.6923 - val_loss: 1.2741 - val_accuracy: 0.6118
+Epoch 26/40
+31/31 [==============================] - 14s 437ms/step - loss: 0.8828 - accuracy: 0.7045 - val_loss: 1.2500 - val_accuracy: 0.6206
+Epoch 27/40
+31/31 [==============================] - 12s 374ms/step - loss: 0.9096 - accuracy: 0.6943 - val_loss: 1.3691 - val_accuracy: 0.6206
+Epoch 28/40
+31/31 [==============================] - 11s 362ms/step - loss: 0.9180 - accuracy: 0.7014 - val_loss: 1.1079 - val_accuracy: 0.6618
+Epoch 29/40
+31/31 [==============================] - 11s 362ms/step - loss: 0.8130 - accuracy: 0.7115 - val_loss: 1.1868 - val_accuracy: 0.6265
+Epoch 30/40
+31/31 [==============================] - 12s 372ms/step - loss: 0.9299 - accuracy: 0.6943 - val_loss: 1.1977 - val_accuracy: 0.6441
+Epoch 31/40
+31/31 [==============================] - 12s 386ms/step - loss: 0.8510 - accuracy: 0.7277 - val_loss: 1.0492 - val_accuracy: 0.6765
+Epoch 32/40
+31/31 [==============================] - 12s 388ms/step - loss: 0.7574 - accuracy: 0.7439 - val_loss: 1.2235 - val_accuracy: 0.6265
+Epoch 33/40
+31/31 [==============================] - 12s 389ms/step - loss: 0.7669 - accuracy: 0.7308 - val_loss: 1.1707 - val_accuracy: 0.6588
+Epoch 34/40
+31/31 [==============================] - 12s 394ms/step - loss: 0.7660 - accuracy: 0.7308 - val_loss: 1.2855 - val_accuracy: 0.6382
+Epoch 35/40
+31/31 [==============================] - 12s 391ms/step - loss: 0.7761 - accuracy: 0.7389 - val_loss: 0.9729 - val_accuracy: 0.7206
+Epoch 36/40
+31/31 [==============================] - 12s 395ms/step - loss: 0.7561 - accuracy: 0.7439 - val_loss: 1.2095 - val_accuracy: 0.6794
+Epoch 37/40
+31/31 [==============================] - 12s 394ms/step - loss: 0.7531 - accuracy: 0.7429 - val_loss: 1.2129 - val_accuracy: 0.6382
+Epoch 38/40
+31/31 [==============================] - 12s 391ms/step - loss: 0.7259 - accuracy: 0.7632 - val_loss: 1.0277 - val_accuracy: 0.7029
+Epoch 39/40
+31/31 [==============================] - 12s 392ms/step - loss: 0.6889 - accuracy: 0.7571 - val_loss: 1.1033 - val_accuracy: 0.6794
+Epoch 40/40
+31/31 [==============================] - 12s 395ms/step - loss: 0.7074 - accuracy: 0.7672 - val_loss: 1.1009 - val_accuracy: 0.6941
+[INFO] evaluation network...
+              precision    recall  f1-score   support
+
+    bluebell       0.75      0.95      0.84        19
+   buttercup       0.53      0.67      0.59        15
+   coltsfoot       0.58      0.70      0.64        20
+     cowslip       0.81      0.57      0.67        23
+      crocus       0.67      0.53      0.59        19
+    daffodil       0.50      0.48      0.49        21
+       daisy       0.83      0.75      0.79        20
+   dandelion       0.65      0.63      0.64        27
+  fritillary       0.80      0.75      0.77        16
+        iris       0.88      0.70      0.78        20
+  lilyvalley       0.52      0.55      0.54        20
+       pansy       0.95      0.95      0.95        22
+    snowdrop       0.45      0.81      0.58        16
+   sunflower       1.00      0.94      0.97        18
+   tigerlily       0.94      0.89      0.91        18
+       tulip       0.29      0.22      0.25        23
+  windflower       0.83      0.87      0.85        23
+
+    accuracy                           0.69       340
+   macro avg       0.71      0.70      0.70       340
+weighted avg       0.71      0.69      0.69       340
+
+[INFO] serializing network...
+(deepLearningVenv) 
