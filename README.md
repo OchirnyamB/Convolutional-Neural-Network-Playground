@@ -86,8 +86,12 @@ SOFTMSX | 1O |
 ![kerasCIFAR10](/output/shallownet_cifar10.PNG)
 * CIFAR-10 **VGGNet** Classification: [81% Accuracy on average](output/minivggnet_cifar10_trainingEval.txt)
 ![kerasCIFAR10](/output/minivggnet_cifar10.PNG)
-* Flowers-17 with Data augmentation: [71% Accuracy on average](output/minivggnet_flowers17_data_aug.txt)
-![minivggf17](/output/minivggnet_flowers17_data_aug.PNG)
+* Flowers-17 
+    * With Data Augmentation: 
+       * [71% Accuracy on average](output/minivggnet_flowers17_data_aug.txt)
+           ![minivggf17](/output/minivggnet_flowers17_data_aug.PNG)
+    * With Data Augmentation & Fine Tuning with VGG16: 
+       * [95% Accuracy on average](output/finetune_flowers17.txt)
 
 * Image Classification using pretrained ResNet50 from Keras:
 [pretrainedResNet50](./classifyImage_ResNet.ipynb)
